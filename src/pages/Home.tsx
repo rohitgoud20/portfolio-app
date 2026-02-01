@@ -1,6 +1,6 @@
 import { IonContent, IonPage, IonHeader, IonTabBar} from '@ionic/react';
 import Hero from '../components/hero';
-import './home.css';
+import './Home.css';
 import ContactHeader from '../components/ContactHeader';
 import ExperienceSection from '../components/ExperienceSection';
 import ProjectsSection from '../components/projectSection'
