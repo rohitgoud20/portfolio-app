@@ -1,0 +1,95 @@
+.case-content {
+  --padding-top: 0;
+  --padding-bottom: 0;
+}
+
+.case-wrap {
+  padding: 4.5rem 8vw 5rem;
+  max-width: 980px;
+}
+
+.case-breadcrumb {
+  margin: 0 0 1.25rem;
+  font-size: 0.95rem;
+  opacity: 0.7;
+}
+
+.case-link {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.case-link:hover {
+  opacity: 1;
+}
+
+.case-sep {
+  margin: 0 0.6rem;
+  opacity: 0.6;
+}
+
+.case-header h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.case-subtitle {
+  margin-top: 1rem;
+  max-width: 720px;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+
+.case-meta {
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+  opacity: 0.7;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.dot {
+  opacity: 0.5;
+}
+
+.case-section {
+  margin-top: 3rem;
+}
+
+.case-section h2 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+}
+
+.case-section p {
+  line-height: 1.7;
+  opacity: 0.85;
+  max-width: 820px;
+}
+
+.case-section ul {
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+}
+
+.case-section li {
+  margin-bottom: 0.6rem;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+.case-footer {
+  margin-top: 4rem;
+}
+
+.case-back {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.case-back:hover {
+  opacity: 1;
+}

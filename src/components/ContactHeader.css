@@ -1,0 +1,39 @@
+.contact-header {
+  position: fixed;
+  top: 24px;
+  right: 32px;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 12px 26px;
+  height: 48px;
+
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.25);
+
+  transition: all 0.25s ease;
+}
+
+.contact-header a {
+  color: #d6ccff;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+
+  transition: color 0.2s ease;
+}
+
+.contact-header a:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,32 @@
+.education-section {
+  padding: 2.5rem 8vw 4rem;
+}
+
+.education-section h2 {
+  font-size: 2.1rem;
+  margin-bottom: 2rem;
+}
+
+.education-item {
+  max-width: 720px;
+}
+
+.education-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.edu-meta {
+  opacity: 0.75;
+  margin-bottom: 0.4rem;
+}
+
+.edu-details {
+  opacity: 0.8;
+  margin-bottom: 0.6rem;
+}
+
+.edu-focus {
+  opacity: 0.7;
+  line-height: 1.6;
+}

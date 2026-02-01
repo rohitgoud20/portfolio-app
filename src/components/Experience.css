@@ -1,0 +1,56 @@
+.experience-section {
+  padding: 3rem 8vw 2.5rem;
+}
+
+.experience-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+}
+
+.experience-item {
+  max-width: 800px;
+  margin-bottom: 4rem;
+}
+
+.experience-item h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.company {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.experience-item ul {
+  padding-left: 1.2rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.6rem;
+  opacity: 0.8;
+}
+
+.case-link-inline {
+  display: inline-block;
+  margin: 0.25rem 0 1rem;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.case-link-inline:hover {
+  opacity: 1;
+}
+
+.project-highlights li,
+.experience-item li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}

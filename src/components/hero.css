@@ -1,0 +1,73 @@
+.hero {
+  display: flex;
+  align-items: center;           /* vertical alignment */
+  justify-content: space-between;
+  gap: 4rem;
+
+  padding: 5rem 8rem 3.5rem;     /* ↓ reduced bottom padding */
+  min-height: auto;              /* IMPORTANT: no forced height */
+
+  box-sizing: border-box;
+}
+
+/* LEFT TEXT */
+.hero-left {
+  max-width: 620px;
+}
+
+.hero-left h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.hero-left h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 0.6rem;
+}
+
+.hero-left p {
+  margin-top: 1.8rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* RIGHT IMAGE */
+.hero-right {
+  flex-shrink: 0;                /* don’t let image stretch */
+}
+
+.hero-right img {
+  width: 210px;                  /* 👈 control size here */
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 0 0 6px rgba(255, 255, 255, 0.04),
+    0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 4rem 2.5rem 2.5rem;
+    gap: 2.5rem;
+  }
+
+  .hero-right img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-left h1 {
+    font-size: 2.6rem;
+  }
+}
